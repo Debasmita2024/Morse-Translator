@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #33ff00;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border: 2px solid #33ff00;
+    box-shadow: 0 0 10px #33ff00;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-shadow: 0 0 5px #33ff00;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    background: black;
+    color: #33ff00;
+    border: 1px solid #33ff00;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: black;
+    color: #33ff00;
+    border: 1px solid #33ff00;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #33ff00;
+    color: black;
+}
+
+#output {
+    font-size: 20px;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #33ff00;
+}
